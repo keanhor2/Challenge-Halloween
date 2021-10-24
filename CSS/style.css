@@ -1,0 +1,161 @@
+/* navbar */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../image/halloween-1702677_1920.jpg);
+    background-size: cover;
+    height:140vh;
+    color: #fff;
+}
+
+/* team */
+
+h1{
+    text-align: center;
+}
+.logo img{
+    width: 35%;
+    margin-left: 10px;
+}
+
+nav{
+    background:  rgba(238, 238, 238, 0.39);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 5px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 65%;
+}
+nav ul li{
+    padding: 10px 15px; 
+    background-color: #000;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 1px solid darkorange;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav ul li:hover{
+    background: none;
+    cursor: pointer;
+}
+.active{
+    background: darkorange;
+}
+
+
+/* section of team page and score page */
+
+section{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 32%;
+    background: rgba(251, 250, 250, 0.205);
+    /* box-shadow: 0 10px 8px rgba(66, 65, 65, 0.719); */
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 6px 7px rgb(231, 184, 56);
+    
+}
+.img{
+    text-align: center;
+}
+.img img{
+    width: 25%;
+}
+.card h2{
+    font-weight:300;
+    text-transform: uppercase;
+    text-align: center;
+}
+.group-name{
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstname{
+    display: flex;
+    align-items: center;
+    
+}
+.firstname i{
+    font-size:2rem;
+}
+h4{
+    font-size: 15px;
+    margin-left: 10px;
+}
+/* score page ============================================ */
+.score h1{
+    font-size: 50px;
+    text-align: center;
+}
+.h2-class h2{
+    margin-top: 0;
+    font-size:30px;
+}
+/* challenge page ==========================================*/
+.group{
+    display: flex;
+    justify-content: center;
+}
+
+.card-col{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(250, 250, 250, 0.178);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.card-col:hover{
+    box-shadow: 0 6px 7px rgb(231, 184, 56);
+    cursor: pointer;
+}
+.time{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    padding: 10px 50px;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.grid-col{
+    display: flex;
+}
+.icon-img img{
+    width: 80%;
+}
+.console h1{
+    text-transform: uppercase;
+}
